@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <div class="head">
+        <div class="containerr">
+            <div class="navbarr-1">
+                <div class="navbar-1-logo">
+                    <h1>Spark <span>Academy</span></h1>
+                </div>
+                <div class="navbar-1-content">
+                    <div class="nav-1-icon">
+                        <i class="fa-solid fa-location-dot"></i><span>34 Street Name, City Name Here,
+                            United States</span>
+                    </div>
+                    <div class="nav-2-icon">
+                        <i class="far fa-clock"></i><span>Sunday - Friday 8:00AM - 4:00PM
+                            Saturday CLOSED</span>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $(".hamburger").click(function(){
+                        $(".navbarr-2").slideToggle()
+                    })
+                })
+            </script>
+            <div class="navbarr-2">
+                <div class="nav-2-cont-1">
+                    <ul>
+                        <li><a id="a1" href="">Home</a></li>
+                        <li><a id="a2" href="#pack">Packages</a></li>
+                        <li><a id="a3" href="">Gallery</a></li>
+                        <li><a id="a4" href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-2-cont-2">
+                    <a href=""> <i id="a1" class="fa fa-whatsapp"></i></a>
+                    <a href=""><i id="a2" class="fa fa-instagram"></i></a>
+                    <a href=""><i id="a3" class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="all-head-content">
+                <div class="head-content">
+                    <h4>Welcome To Our Website</h4>
+                    <h1>Bring Fun Life To Your Kids</h1>
+                    <h2>Amazing Playground for your kids</h2>
+                    <a href=""><button>Learn More</button></a>
+                </div>
+                <div class="head-video">
+                    <h2>Our Memories</h2>
+                    <i id="play-video-head" class="fas fa-play-circle"></i>
+                    <video class="video-head" controls>
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">
+                    </video>
+
+                    <script>
+                        $(document).ready(function () {
+                            $("#play-video-head").click(function () {
+                                $(".video-head").slideDown(800)
+                                $("#play-video-head").hide(1)
+                            })
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="containerr-2">
+            <div class="s2-cards">
+                <div class="s2-card-1">
+                    <i class="fas fa-home"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatibus officiis vitae
+                        corrupti iste sint, omnis inventore ipsam culpa sit asperiores</p>
+                </div>
+                <div class="s2-card-2">
+                    <i class="fas fa-home"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatibus officiis vitae
+                        corrupti iste sint, omnis inventore ipsam culpa.</p>
+                </div>
+                <div class="s2-card-3">
+                    <i class="fas fa-home"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatibus officiis vitae
+                        corrupti iste sint, omnis inventore </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pack" class="section-3">
+        <div class="containerr-2">
+            <div class="s3-head">
+                <h2>Our Packages</h2>
+            </div>
+            <div class="s3-cards">
+                <div class="s3-card-1">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
+                        recusandae?</p>
+                    <a href=""><button>Learn More</button></a>
+                </div>
+                <div class="s3-card-2">
+                    <i class="fas fa-football-ball"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
+                        recusandae?</p>
+                    <a href=""><button>Learn More</button></a>
+                </div>
+                <div class="s3-card-3">
+                    <i class="fas fa-mountain"></i>
+                    <h2>Indoor Games</h2>
+                    <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
+                        recusandae?</p>
+                    <a href=""><button>Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-4">
+        <div class="s4-1">
+            <h2>Our Pricing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quis cupiditate fugit, voluptatibus ullam,
+                non laboriosam alias veniam, ex inventore iure sed?</p>
+        </div>
+        <div class="s4-2">
+            <div class="s4-2-1">
+                <div class="price-1">
+                    <div class="price-2">
+                        <h2>250$</h2>
+                    </div>
+                    <div class="price-h">
+
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloremque, molestias, molestiae
+                    tempora Facilis ea eius inventore numquam? </p>
+                <a href=""><button>Join Now</button></a>
+            </div>
+            <div class="s4-2-2">
+                <div class="price-1-2">
+                    <div class="price-2-2">
+                        <h2>250$</h2>
+                    </div>
+                    <div class="price-2-h">
+
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloremque, molestias, molestiae
+                    tempora Facilis ea eius inventore numquam? </p>
+                <a href=""><button>Join Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="section-5">
+        <!-- Swiper -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/child-development-tracker.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/file-20190404-123410-7tx28w.avif" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (4).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (5).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (6).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (7).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (8).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (9).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Без названия (4).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/images (7).jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper', {
+                slidesPerView: 3,
+                direction: getDirection(),
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                on: {
+                    resize: function () {
+                        swiper.changeDirection(getDirection());
+                    },
+                },
+            });
+
+            function getDirection() {
+                var windowWidth = window.innerWidth;
+                var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+                return direction;
+            }
+        </script>
+    </div>
+
+    <div class="footer">
+        <div class="f1">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates at, ipsa, non dignissimos accusamus
+                facilis cumque voluptatem placeat illum perferendis ea? Natus libero officia nostrum sit et voluptate
+                fugiat eius.</p>
+        </div>
+        <div class="f2">
+            <ul>
+                <li><a id="a1" href="">Home</a></li>
+                <li><a id="a2" href="">Packages</a></li>
+                <li><a id="a3" href="">Gallery</a></li>
+                <li><a id="a4" href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="f3">
+            <a href=""><i id="a1" class="fa fa-whatsapp"></i></a>
+            <a href=""><i id="a2" class="fa fa-instagram"></i></a>
+            <a href=""><i id="a3" class="fa fa-facebook"></i></a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/3b1c8e27c3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
